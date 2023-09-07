@@ -26,6 +26,7 @@ class Snake:
 
         # Deleting tail
         self.segments.pop(0)
+        return
 
     def snakeTouchesWalls(self):
         if self.segments[-1][0] < 1 or self.segments[-1][0] >= self.dimension-1:
