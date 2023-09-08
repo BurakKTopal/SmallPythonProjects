@@ -2,8 +2,9 @@ import torch
 import numpy as np
 from collections import deque
 from Model import linear_QNet, QTrainer
-from main import *
+from Visualisation import *
 from Helper import *
+from GameState import *
 
 WIDTH = HEIGHT = 600
 
