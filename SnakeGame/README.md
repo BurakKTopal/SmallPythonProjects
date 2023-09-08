@@ -1,1 +1,1 @@
-Change the MAX_FPS variable accordingly to make let the snake go faster.
+Change the MAX_FPS variable in Main.py to make let the snake go faster.
