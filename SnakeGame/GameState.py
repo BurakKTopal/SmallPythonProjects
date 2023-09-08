@@ -1,6 +1,7 @@
 import random
 class Snake:
     def __init__(self, grid_size, window_width, window_height):
+        self.died = False
         self.grid_size = grid_size
         self.points = 0
         self.dimension = window_height/grid_size
