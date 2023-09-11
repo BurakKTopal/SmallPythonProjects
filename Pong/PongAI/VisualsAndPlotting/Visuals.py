@@ -1,6 +1,6 @@
 import pygame as p
-WIDTH = 200
-HEIGHT = 200
+WIDTH = 600
+HEIGHT = 400
 
 MAX_FPS = 20
 IMAGES = {}
