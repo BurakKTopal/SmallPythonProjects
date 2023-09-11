@@ -25,6 +25,7 @@ For the application to run properly, please install following packages
 With the code provided in <a href="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/Main.py">main</a>, you can play against a friend.
 </p>
 
+## Deep learning AI playing Pong
 <p>Besides, I tried to make Reinforcement deep Q-learning, with inspiration of my earlier made <a href="https://github.com/BurakKTopal/SmallPythonProjects/tree/main/SnakeGame">SnakeGame</a>. With <a href="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/PongAI/TrainingHumanToBot.py">TrainingHumanAgainstBot</a>, you yourself can try the bot to play better pong, but I shall warn you: it takes 100 - 120 games until the bot can play some decent pong. This may come due to the low learning rate, or other hyperparameters.
 </p>
 
