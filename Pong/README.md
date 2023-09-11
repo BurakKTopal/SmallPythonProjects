@@ -20,7 +20,7 @@ For the application to run properly, please install following packages
 Everyone knows the game pong. I tried to code this WITH board edge physics. 
 
 
-![BoardEdgePhysics](main/Pong/Media/BoardEdgePhysics.gif)
+![BoardEdgePhysics](Media/BoardEdgePhysics.gif)
 
 With main, one can play against eachother.
 </p>
