@@ -17,8 +17,16 @@ For the application to run properly, please install following packages
 </ul>
 
 ## Game setup 
+<p>
 Everyone knows the game pong. I tried to code this WITH board edge physics. 
-<vid href="'>
-With main, one can play against eachother, the setup can be chosen by changing 
-Besides, I tried to make Reinforcement deep Q-learning, with inspiration of my earlier made <a href="https://github.com/BurakKTopal/SmallPythonProjects/tree/main/SnakeGame">SnakeGame</a>. 
+<vid href="">
+With main, one can play against eachother.
+</p>
+
+<p>Besides, I tried to make Reinforcement deep Q-learning, with inspiration of my earlier made <a href="https://github.com/BurakKTopal/SmallPythonProjects/tree/main/SnakeGame">SnakeGame</a>. With <a href="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/PongAI/TrainingHumanToBot.py">TrainingHumanAgainstBot</a>, you yourself can try the bot to play better pong, but I shall warn you: it takes 100 - 120 games until the bot can play some decent pong. This may come due to the low learning rate, or other hyperparameters.
+</p>
+
+ <p>
+     With <a href="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/PongAI/TrainingBotAgainstBot.py">TrainingBotAgainstBot</a> you can look at how the bots learn to play pong themselves. The visualisations of their scores are done by <a href="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/PongAI/VisualsAndPlotting/Helper.py">Helper.py</a>
+ </p>
 
