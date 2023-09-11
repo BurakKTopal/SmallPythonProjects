@@ -9,8 +9,10 @@ def train():
     """
     Training...
     """
-    plot_scores = []
-    plot_mean_scores = []
+    plot_scores_1 = []
+    plot_scores_2 = []
+    plot_mean_scores_1 = []
+    plot_mean_scores_2 = []
     mean_score_2 = 0
     mean_score_1 = 0
     p.init()
@@ -58,10 +60,10 @@ def train():
                     record = score_2
                     agent2.model.save()
 
-                plot_scores.append(score_2)
+                plot_scores_2.append(score_2)
                 mean_score_2 = (mean_score_2 * (agent2.number_of_games - 1) + score_2) / agent2.number_of_games
-                plot_mean_scores.append(mean_score_2)
-                plot(plot_scores, plot_mean_scores)
+                plot_mean_scores_2.append(mean_score_2)
+                plot(plot_scores_1, plot_mean_scores_1, plot_scores_2, plot_mean_scores_2)
                 print('Generation', agent2.number_of_games, 'Score: ', score_2, 'Record: ', record)
                 print('----------------------------------------------')
                 break
@@ -105,10 +107,10 @@ def train():
                     record = score_1
                     agent1.model.save()
 
-                plot_scores.append(score_1)
+                plot_scores_1.append(score_1)
                 mean_score_1 = (mean_score_1 * (agent1.number_of_games - 1) + score_1) / agent1.number_of_games
-                plot_mean_scores.append(mean_score_1)
-                plot(plot_scores, plot_mean_scores)
+                plot_mean_scores_1.append(mean_score_1)
+                plot(plot_scores_1, plot_mean_scores_1, plot_scores_2, plot_mean_scores_2)
                 print('Generation', agent1.number_of_games, 'Score: ', score_1, 'Record: ', record)
                 print('----------------------------------------------')
                 break
