@@ -77,8 +77,8 @@ def train():
 
                 plot_scores.append(score)
                 mean_score = (mean_score * (agent.number_of_games - 1) + score) / agent.number_of_games
-                #plot_mean_scores.append(mean_score)
-                #plot(plot_scores, plot_mean_scores)
+                plot_mean_scores.append(mean_score)
+                plot(plot_scores, plot_mean_scores, [], [])
                 print('Generation', agent.number_of_games, 'Score: ', score, 'Record: ', record)
                 print('----------------------------------------------')
                 break
