@@ -10,10 +10,12 @@ def plot(scores_1, mean_scores_1, scores_2, mean_scores_2):
     plt.title('Training...')
     plt.xlabel('Number of Games')
     plt.ylabel('Score')
-    #plt.plot(scores_1, label="score AI P1")  # for plotting the score of AI Player One
-    plt.plot(mean_scores_1, label="mean score AI P1")
-    #plt.plot(scores_2, label="score AI P2")  # for plotting the score of AI Player Two
-    plt.plot(mean_scores_2, label="mean score AI P2") 
+    if mean_scores_1:
+        #plt.plot(scores_1, label="score AI P1")  # for plotting the score of AI Player One
+        plt.plot(mean_scores_1, label="mean score AI P1")
+    if mean_scores_2:
+        #plt.plot(scores_2, label="score AI P2")  # for plotting the score of AI Player Two
+        plt.plot(mean_scores_2, label="mean score AI P2")
     plt.ylim(ymin=0)
     if mean_scores_1:
         plt.text(len(mean_scores_1)-1, mean_scores_1[-1], str(mean_scores_1[-1]))
