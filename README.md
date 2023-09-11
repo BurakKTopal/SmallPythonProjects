@@ -18,5 +18,6 @@ This repository contains:
   <li>A binary tree algorithm to search for an element in a given list.</li>
   <li>A simple GUI-calculator.</li>
   <li>A snake game, single player as well as a Reinforcment learning AI</li>
+  <li>Pong, with Reinforcement Learning</li>
   
 </ul>
