@@ -20,3 +20,6 @@ Use the arrows on your keyboard to change the direction of the snake. For changi
 
 ## Reinforcement Learning
 I've also provided code to learn an AI to play the snake game. This is achieved by the notable work of <a href="https://github.com/patrickloeber">Patrick Loeber</a>. and the corresponding video https://www.youtube.com/watch?v=L8ypSXwyBds.
+
+ ## Author
+ <footer>Burak Kucuktopal</footer>
