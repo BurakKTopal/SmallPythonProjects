@@ -18,7 +18,7 @@ def drawBoards(screen, gamestate):
     board_one = IMAGES["Board_1_white"].get_rect()
     # Set the figure's initial position
     board_one.x = gamestate.board_player_one[0] - gamestate.board_width/2
-    board_one.y = gamestate.board_player_one[1] - gamestate.board_height/2
+    board_one.y = gamestate.board_player_one[1] - gamestate.board_height
     screen.blit(IMAGES["Board_1_white"], board_one)
 
     board_two = IMAGES["Board_2_white"].get_rect()
