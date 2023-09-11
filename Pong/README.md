@@ -20,7 +20,6 @@ For the application to run properly, please install following packages
 Everyone knows the game pong. I tried to code this WITH board edge physics.
 <img src="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/Media/BoardEdgePhysics.gif" alt="Pong GIF" width="300">
 
-![BoardEdgePhysics](https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/Media/BoardEdgePhysics.gif)
 With main, one can play against eachother.
 </p>
 
