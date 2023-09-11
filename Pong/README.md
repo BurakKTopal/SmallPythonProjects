@@ -6,7 +6,7 @@ For the application to run properly, please install following packages
     <li>IPython</li>
     <li>matplotlib.pyplot</li>
     <li>numpy</li>
-    <li>pygam</li>
+    <li>pygame</li>
     <li>random</li>
     <li>collections</li>
     <li>torch</li>
