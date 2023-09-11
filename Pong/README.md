@@ -22,7 +22,7 @@ For the application to run properly, please install following packages
 
 <img src="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/Media/BoardEdgePhysics.gif" alt="Pong GIF" height=400 width = 50%>
 <p>
-With the code provided in <a href="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/Main.py">main</a>, you can play against a friend.
+With the code provided in <a href="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/Pong/Main.py">main</a>, you can play against a friend. To move the lower board, use the left or right arrow on your keyboard. For the movement of the upper board, use 'q' for left movements, 'd' for right.
 </p>
 
 ## Deep learning AI playing Pong
