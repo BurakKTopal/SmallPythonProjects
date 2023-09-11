@@ -16,4 +16,4 @@
 </ul>
 
 ## Gameplay
-Use the arrows on your keyboard to change the direction of the snake. For changing the speed of the snake, you can play around with the <a href="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/SnakeGame/Main.py#L7">MAX_FPS</a> variable.
+Use the arrows on your keyboard to change the direction of the snake. For changing the speed of the snake, you can play around with the <a href="https://github.com/BurakKTopal/SmallPythonProjects/blob/main/SnakeGame/Main.py#L5">MAX_FPS</a> variable.
