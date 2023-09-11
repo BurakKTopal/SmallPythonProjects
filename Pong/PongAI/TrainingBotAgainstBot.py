@@ -31,14 +31,14 @@ def train():
         game.board_player_one_direction = 0
         game.board_player_two_direction = 0
         while game.player_two_to_move:
-            for e in p.event.get():
-                if e.type == p.QUIT:
-                    input('the game ended!')
-                if e.type == p.KEYDOWN:
-                    # Check for key presses to change direction
-                    if e.key == p.K_a:
-                        game.reset()
-                        break
+            # for e in p.event.get():
+            #     if e.type == p.QUIT:
+            #         input('the game ended!')
+            #     if e.type == p.KEYDOWN:
+            #         # Check for key presses to change direction
+            #         if e.key == p.K_a:
+            #             game.reset()
+            #             break
 
 
             state_old = agent2.get_state(game)  # get old state
@@ -80,14 +80,14 @@ def train():
             p.display.flip()
 
         while game.player_one_to_move:
-            for e in p.event.get():
-                if e.type == p.QUIT:
-                    input('the game ended!')
-                if e.type == p.KEYDOWN:
-                    # Check for key presses to change direction
-                    if e.key == p.K_b:
-                        game.reset()
-                        break
+            # for e in p.event.get():
+            #     if e.type == p.QUIT:
+            #         input('the game ended!')
+            #     if e.type == p.KEYDOWN:
+            #         # Check for key presses to change direction
+            #         if e.key == p.K_b:
+            #             game.reset()
+            #             break
             state_old = agent1.get_state(game)  # get old state
 
             final_move = agent1.get_action(state_old, game)  # get final move
