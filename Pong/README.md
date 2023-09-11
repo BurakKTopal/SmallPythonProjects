@@ -12,7 +12,7 @@ For the application to run properly, please install following packages
     <li>torch</li>
     <li>torch.nn</li>
     <li>torch.optim</li>
-    <li>torch.nn.functiona</li>
+    <li>torch.nn.functional</li>
     <li>os</li>
 </ul>
 
